@@ -1,0 +1,61 @@
+﻿@model IEnumerable<BookAppMVC.Models.Books>
+
+@{
+    ViewData["Title"] = "Pääsivu";
+}
+
+<h2>Kirjasi</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Kirja_nimi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Kirjailija_nimi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Lainauspvm)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Ostospvm)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Lukemispvm)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Palautuspvm)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kirja_nimi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Kirjailija_nimi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lainauspvm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ostospvm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lukemispvm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Palautuspvm)
+            </td>
+            <td>
+                @Html.ActionLink("Muokkaa", "Muokkaa", new { /* id=item.PrimaryKey */ }) |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
