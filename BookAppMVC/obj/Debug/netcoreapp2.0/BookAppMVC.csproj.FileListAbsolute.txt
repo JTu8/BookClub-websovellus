@@ -9,3 +9,14 @@ E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.As
 E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.AssemblyInfo.cs
 E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.dll
 E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.pdb
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.deps.json
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.runtimeconfig.json
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.runtimeconfig.dev.json
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.dll
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.pdb
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.csprojAssemblyReference.cache
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.csproj.CoreCompileInputs.cache
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.AssemblyInfoInputs.cache
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.AssemblyInfo.cs
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.dll
+E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.pdb
