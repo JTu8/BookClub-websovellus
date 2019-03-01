@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{66A6083F-3A23-403C-8B31-117842F883C3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookAppMVC/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="BookAppMVC/Views/Home/Index.cshtml" Line="27" Column="38" />
+      <File FileName="BookAppMVC/Views/Shared/_Layout.cshtml" Line="34" Column="100" />
+      <File FileName="BookAppMVC/Views/Home/AddBooks.cshtml" Line="50" Column="76" />
+      <File FileName="BookAppMVC/Controllers/HomeController.cs" Line="61" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookAPI" expanded="True" />
+          <Node name="BookAppMVC" expanded="True">
+            <Node name="BookAppMVC" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BookAppMVC PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

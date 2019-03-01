@@ -1,22 +1,32 @@
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.deps.json
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.runtimeconfig.json
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.runtimeconfig.dev.json
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.dll
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.pdb
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.csprojAssemblyReference.cache
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.csproj.CoreCompileInputs.cache
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.AssemblyInfoInputs.cache
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.AssemblyInfo.cs
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.dll
-E:\Projektit\BookApp\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.pdb
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.deps.json
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.runtimeconfig.json
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.runtimeconfig.dev.json
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.dll
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\bin\Debug\netcoreapp2.0\BookAppMVC.pdb
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.csprojAssemblyReference.cache
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.csproj.CoreCompileInputs.cache
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.AssemblyInfoInputs.cache
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.AssemblyInfo.cs
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.dll
-E:\Projektit\Book Club\BookAppMVC\BookAppMVC\obj\Debug\netcoreapp2.0\BookAppMVC.pdb
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.deps.json
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.runtimeconfig.json
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.runtimeconfig.dev.json
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.dll
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.pdb
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.csprojAssemblyReference.cache
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.csproj.CoreCompileInputs.cache
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.AssemblyInfoInputs.cache
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.AssemblyInfo.cs
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.dll
+E:/Projektit/BookApp/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.pdb
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.deps.json
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.runtimeconfig.json
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.runtimeconfig.dev.json
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.dll
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.pdb
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.csprojAssemblyReference.cache
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.csproj.CoreCompileInputs.cache
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.AssemblyInfoInputs.cache
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.AssemblyInfo.cs
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.dll
+E:/Projektit/Book Club/BookAppMVC/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.pdb
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.deps.json
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.runtimeconfig.json
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.runtimeconfig.dev.json
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.dll
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/bin/Debug/netcoreapp2.0/BookAppMVC.pdb
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.csproj.CoreCompileInputs.cache
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.AssemblyInfoInputs.cache
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.AssemblyInfo.cs
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.dll
+/Users/jere/Documents/Projektit/BookClub/BookClub-websovellus/BookClub-websovellus/BookAppMVC/obj/Debug/netcoreapp2.0/BookAppMVC.pdb

@@ -1,0 +1,57 @@
+﻿@model BookAppMVC.Models.Books
+
+@{
+    ViewData["Title"] = "Uuden kirjan lisäys";
+}
+
+<h2>Lisää uusi kirja</h2>
+
+@using (Html.BeginForm()) {
+
+<div class="form-group">
+
+    <label for="kirja_nimi">Kirjan nimi</label>
+    @Html.EditorFor(model => model.Kirja_nimi, new
+    {
+        htmlAttributes = new
+        {
+            @class = "form-control",
+            @placeholder = "Syötä kirja"
+        }
+    })
+    <label for="kirjailija_nimi">Kirjailija nimi</label>
+    @Html.EditorFor(model => model.Kirjailija_nimi, new
+    {
+        htmlAttributes = new
+        {
+            @class = "form-control",
+            @placeholder = "Syötä kirjailija"
+        }
+    })
+    <label for="lainauspvm">Lainauspäivämäärä</label>
+    @Html.EditorFor(model => model.Lainauspvm, new
+    {
+        htmlAttributes = new
+        {
+            @class = "form-control",
+            @placeholder = "Syötä lainauspäivämäärä"
+        }
+    })
+    <label for="ostopvm">Ostopäivämäärä</label>
+    @Html.EditorFor(model => model.Ostospvm, new
+    {
+        htmlAttributes = new
+        {
+            @class = "form-control",
+            @placeholder = "Syötä ostopäivämäärä"
+        }
+    })
+
+    <p><input type="submit" value="AddBooks" class="btn btn-default" /></p>
+
+
+
+
+</div>
+}
+

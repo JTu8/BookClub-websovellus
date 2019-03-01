@@ -16,14 +16,14 @@ namespace BookAppMVC.Controllers
         {
             IEnumerable<Books> _books = null;
 
-            using(var client = new HttpClient())
+            using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("http://localhost:50644/api/Books");
+                client.BaseAddress = new Uri("http://localhost:50645/api/Books");
                 var responseTask = client.GetAsync("books");
                 responseTask.Wait();
 
                 var result = responseTask.Result;
-                if(result.IsSuccessStatusCode)
+                if (result.IsSuccessStatusCode)
                 {
                     var readTask = result.Content.ReadAsAsync<IList<Books>>();
                     _books = readTask.Result;
@@ -31,13 +31,37 @@ namespace BookAppMVC.Controllers
                 else
                 {
                     _books = Enumerable.Empty<Books>();
-                    ModelState.AddModelError(string.Empty, "Virhe tietokannassa");
+                    ModelState.AddModelError(string.Empty, "Virhe palvelimessa");
                 }
             }
 
             return View(_books);
         }
 
-        
+        [HttpPost]
+        public IActionResult AddBooks(Books books)
+        {
+
+            using(var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:50645/api/Books");
+
+                var postTask = client.PostAsJsonAsync<Books>("books", books);
+                postTask.Wait();
+
+                var result = postTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index");
+                }
+
+            }
+
+            ModelState.AddModelError(string.Empty, "Virhe palvelimessa");
+
+            return View();
+
+        }
+
     }
 }
