@@ -66,5 +66,48 @@ namespace BookAppMVC.Controllers
             return View(books);
         }
 
+        public IActionResult Edit(int id)
+        {
+            IEnumerable<Books> books = null;
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:50644/api/Books");
+                var responseTask = client.GetAsync("" + id.ToString());
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<IList<Books>>();
+                    readTask.Wait();
+
+                    books = readTask.Result;
+                }
+            }
+
+            return View(books);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Books books)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://localhost:50644/api/Books");
+
+                var putTask = client.PutAsJsonAsync<Books>("books", books);
+                putTask.Wait();
+
+                var result = putTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+
+            return View(books);
+        }
+
     }
 }

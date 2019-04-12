@@ -1,0 +1,57 @@
+﻿@model BookAppMVC.Models.Books
+
+@{
+    ViewData["Title"] = "Kirjan päivitys";
+}
+
+<h2>Päivitä kirjan tietoja</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Kirja_nimi" class="control-label">Kirjan nimi</label>
+                <input asp-for="Kirja_nimi" class="form-control" />
+                <span asp-validation-for="Kirja_nimi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Kirjailija_nimi" class="control-label">Kirjailija</label>
+                <input asp-for="Kirjailija_nimi" class="form-control" />
+                <span asp-validation-for="Kirjailija_nimi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lainauspvm" class="control-label">Lainauspäivämäärä</label>
+                <input asp-for="Lainauspvm" class="form-control" />
+                <span asp-validation-for="Lainauspvm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ostospvm" class="control-label">Ostopäivämäärä</label>
+                <input asp-for="Ostospvm" class="form-control" />
+                <span asp-validation-for="Ostospvm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lukemispvm" class="control-label">Lukemispäivämäärä</label>
+                <input asp-for="Lukemispvm" class="form-control" />
+                <span asp-validation-for="Lukemispvm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Palautuspvm" class="control-label">Palautuspäivämäärä</label>
+                <input asp-for="Palautuspvm" class="form-control" />
+                <span asp-validation-for="Palautuspvm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Tallenna" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Takaisin pääsivulle</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
