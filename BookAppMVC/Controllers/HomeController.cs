@@ -73,7 +73,7 @@ namespace BookAppMVC.Controllers
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("http://localhost:50644/api/Books");
-                var responseTask = client.GetAsync("" + id.ToString());
+                var responseTask = client.GetAsync("/" + id.ToString());
                 responseTask.Wait();
 
                 var result = responseTask.Result;

@@ -12,12 +12,16 @@ namespace BookAppMVC.Models
         public string Kirja_nimi { get; set; }
         public string Kirjailija_nimi { get; set; }
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
-        public string Lainauspvm { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime? Lainauspvm { get; set; }
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
-        public string Ostospvm { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime? Ostospvm { get; set; }
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
-        public string Lukemispvm { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime? Lukemispvm { get; set; }
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
-        public string Palautuspvm { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime? Palautuspvm { get; set; }
     }
 }
